@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    background-color:#f6f8ff ;
+}
+@media screen and (min-width:320px) {
+    .container{
+        width: 100%;
+        padding: 40px 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mode-changer{
+        display: flex;
+        align-items: center;
+    }
+    .mode-changer h4{
+        margin-right: 15px;
+        color: #697C9A;
+        line-height: 20px;
+    }
+    h1{
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .search-bar{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fefefe;
+        border-radius: 15px;
+        margin-top: 40px;
+        box-shadow: 5px 5px 20px 0px #697c9a2c;
+    }
+    .search-bar input{
+        background-color: #fefefe;
+        border: none;
+        width: 180px;
+    }
+    .search-bar button{
+        background-color: #0079ff;
+        border: none;
+        padding: 12px 15px;
+        color: #fefefe;
+        border-radius: 10px;
+    }
+    .account-box{
+        height: 550px;
+        background-color: #fefefe;
+        margin-top: 20px;
+        box-shadow: 5px 5px 20px 0px #697c9a2c;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding-top: 30px;
+        padding: 30px 20px;
+    }
+    .account-box .main{
+        margin: 0 auto;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .account-box .main .span{
+        color: #0079ff;
+    }
+    .account-box .main span{
+        color: #697C9A;
+        font-weight: 400;
+    }
+    .account-box .main .picture{
+        width: 80px;
+        height: 80px;
+        background-color: #697C9A;
+        border-radius: 50%;
+    }
+    .account-box .main .text{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .account-box .text p{
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+        margin-top: 40px;
+        color: #697C9A;
+    }
+    .account-box .dashboard{
+        width: 100%;
+        height: 80px;
+        background-color: #f6f8ff;
+        border-radius: 10px;
+        padding: 10px 0;
+        margin-top: 40px;
+    }
+    .account-box .dashboard ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        color: #697C9A;
+    }
+    .account-box .dashboard ul div{
+        text-align: center;
+    }
+    .account-box .dashboard ul div p{
+        font-size: 12px;
+    }
+    .account-box .dashboard ul div span {
+        font-size: 16px;
+        font-weight: 700;
+        color: #000;
+    }
+    .account-box .social{
+        margin-top: 30px;
+    }
+    .account-box .social .box{
+        display: flex;   
+        margin-top: 15px;
+    }
+    .account-box .social .box p{
+        color: #697C9A;
+        margin-left: 20px;
+    }   
+    .search-bar p{
+        color: red;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width:768px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .search-bar input{
+        margin-right: 50px;
+        width: 300px;
+        height: 70%;
+    }
+    .search-bar input::placeholder{
+        font-size: 18px;
+    }
+    .account-box{
+        height: 450px;
+    }
+    .account-box .main{
+        margin-right: 220px;
+    }
+    .account-box .main .text{
+        margin-left: 30px;
+    }
+    .account-box .text p {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .account-box .dashboard{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .account-box .social div{
+        display: flex;
+        width: 450px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:1440px){
+    .container{
+        width: 55%;
+        margin: 0 auto;
+    }
+    .search-bar input{
+        margin-right: 100px;
+    }
+    .search-bar button{
+        padding: 12px 20px;
+    }
+}

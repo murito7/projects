@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@media screen and (min-width:320px) {
+    .hero img{
+        position: absolute;
+        top: -190px;
+        right: 0px;
+        z-index: -1;
+    }
+    .hero .page-title{
+        position: absolute;
+        top: 20px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .hero h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        top: 100px;
+    }
+    .hero h1,.page-title,.body-text{
+        padding-left: 20px;
+    }
+    .hero .body-text{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        position: absolute;
+        top: 300px;
+        line-height: 26px ;
+        width: 320px;
+    }
+    .content .bg-pattern-2{
+        background-color: #191826;
+        position: absolute;
+        top: 680px;
+        z-index: 0;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .content .phone{
+        width: 250px;
+        position: absolute;
+        z-index: 1;
+        top: 520px;
+        margin-left: 60px;
+    }
+    .content .card{
+        width: 100%;
+        background-color: #fa7453 ;
+        position: absolute;
+        top: 1130px;
+        padding: 30px;
+    }
+    .bg-pattern-2, .card{
+        border-radius: 15px;
+    }
+    .card h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        color: #fcfaf9;
+    }
+    .card .body-text-card{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        position: absolute;
+        top: 100px;
+        line-height: 26px ;
+        width: 320px;
+        color: #fcfaf9;
+        
+    }
+    .card .cash{
+        display: flex;
+        margin-top: 220px;
+        align-items: center;
+    }
+    .card span{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        padding-right: 10px;
+        color: #fcfaf9;
+        font-weight: 600;
+    }
+    .card .cash p{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        color: #fcfaf9;
+    }
+    .btns button{
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        background-color: #191826;
+        margin-top: 15px;
+        transition: 250ms;
+    }
+    .btns button:hover{
+        background-color: #ffb964;
+    }
+    .btns button div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btns button div p{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        color: #fcfaf9;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+    .btns .second{
+        background-color: #fcfaf9;
+    }
+    .btns .second:hover{
+        background-color: #66e2dc;
+    }
+    .btns .second div p{
+        color: #191826;
+    }
+    .tablet-bg{
+        display: none;
+    }
+    .tablet-pattern{
+        display: none;
+    }
+    footer .page-title{
+        position: absolute;
+        top: 1700px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    footer .body-text{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        position: absolute;
+        top: 1770px;
+        line-height: 26px ;
+        width: 320px;
+    }
+    footer span{
+        font-weight: 600;
+    }
+    footer .social{
+        display: flex;
+        margin-top:1950px;
+        z-index: 11;
+        padding-bottom: 50px;
+    }
+    footer svg{
+        margin-left: 20px;
+        transition: 250ms;
+        cursor: pointer;
+    }
+    footer svg:hover{
+        background-color: #fa7453 ;
+        color: #fff;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero h1,.page-title,.body-text{
+        padding-left: 40px;
+    }
+    .hero img{
+        display: none;
+    }
+    .tablet-bg{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: -350px;
+        top: -200px;
+        right: 400px;
+        width: 1110px;
+    }
+    .tablet-pattern{
+        display: block;
+        position: absolute;
+        right: -20px;
+        overflow-x: hidden;
+        height: 350px;
+        top: -20px;
+    }
+    .hero h1{
+        width: 400px;
+        top: 150px;
+        font-size: 40px;
+    }
+    .hero .body-text{
+        width: 500px;
+        top: 350px;
+    }
+    .content .bg-pattern-2{
+        padding-left: 180px;
+        width: 700px;
+        margin-left: 40px;
+    }
+    .content .card{
+        width: 400px;
+        top: 800px;
+        z-index: 1;
+        right: 140px;
+    }
+    footer .page-title{
+        top: 1400px;
+    }
+    footer .body-text{
+        top: 1480px;
+    }
+    footer .social{
+        padding-bottom: 100px;
+        margin-top: 1540px;
+        margin-left: 600px;
+    }
+}
+@media screen and (min-width:1428px) {
+
+    .hero h1,.page-title,.body-text{
+        padding-left: 80px;
+    }
+    .hero h1{
+        font-size: 88px;
+        width: 1000px;
+        line-height: 88px;
+    }
+    .tablet-bg{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: -200px;
+        left: -150px;
+        width: 1500px;
+    }
+    .hero .body-text{
+        font-size: 20px;
+        width: 1000px;
+        line-height: 26px;
+        top: 400px;
+    }
+    .content .bg-pattern-2{
+        width: 1230px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .tablet-pattern{
+        height: 550px;
+    }
+    .content .bg-pattern-2{
+        padding-left: 450px;
+        padding-top: -200px;
+        height: 600px;
+    }
+    .content .phone{
+        left: 270px;
+        top: 640px;
+        width: 300px;
+    }
+    .content .card{
+        left: 800px;
+        top: 920px;
+    }
+    footer .page-title{
+        top: 1550px;
+        left: 20px;
+    }
+    footer .body-text{
+        top: 1550px;
+        width: 450px;
+        left: 300px;
+    }
+    footer .social{
+        padding-bottom: 100px;
+        margin-top: 1580px;
+        margin-left: 1200px;
+    }
+}
